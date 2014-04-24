@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D630A9519089C81000E574A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D630A9419089C81000E574A /* Foundation.framework */; };
+		8D630A9719089C81000E574A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D630A9619089C81000E574A /* CoreGraphics.framework */; };
+		8D630A9919089C81000E574A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D630A9819089C81000E574A /* UIKit.framework */; };
+		8D630A9F19089C81000E574A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D630A9D19089C81000E574A /* InfoPlist.strings */; };
+		8D630AA119089C81000E574A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D630AA019089C81000E574A /* main.m */; };
+		8D630AA519089C81000E574A /* EDWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D630AA419089C81000E574A /* EDWAppDelegate.m */; };
+		8D630AA819089C81000E574A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D630AA619089C81000E574A /* Main.storyboard */; };
+		8D630AAB19089C81000E574A /* EDWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D630AAA19089C81000E574A /* EDWViewController.m */; };
+		8D630AAD19089C81000E574A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D630AAC19089C81000E574A /* Images.xcassets */; };
+		8D630AB419089C81000E574A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D630AB319089C81000E574A /* XCTest.framework */; };
+		8D630AB519089C81000E574A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D630A9419089C81000E574A /* Foundation.framework */; };
+		8D630AB619089C81000E574A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D630A9819089C81000E574A /* UIKit.framework */; };
+		8D630ABE19089C81000E574A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D630ABC19089C81000E574A /* InfoPlist.strings */; };
+		8D630AC019089C81000E574A /* BlurredSegueExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D630ABF19089C81000E574A /* BlurredSegueExampleTests.m */; };
+		8D630ACB19089DB0000E574A /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D630AC919089DB0000E574A /* UIImage+ImageEffects.m */; };
+		8D630AD019089DC8000E574A /* EDWBlurredUnwindSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D630ACC19089DC8000E574A /* EDWBlurredUnwindSegue.m */; };
+		8D630AD119089DC8000E574A /* EDWBlurredSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D630ACE19089DC8000E574A /* EDWBlurredSegue.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D630AB719089C81000E574A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D630A8919089C81000E574A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D630A9019089C81000E574A;
+			remoteInfo = BlurredSegueExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D630A9119089C81000E574A /* BlurredSegueExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BlurredSegueExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D630A9419089C81000E574A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8D630A9619089C81000E574A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		8D630A9819089C81000E574A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		8D630A9C19089C81000E574A /* BlurredSegueExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlurredSegueExample-Info.plist"; sourceTree = "<group>"; };
+		8D630A9E19089C81000E574A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D630AA019089C81000E574A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8D630AA219089C81000E574A /* BlurredSegueExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BlurredSegueExample-Prefix.pch"; sourceTree = "<group>"; };
+		8D630AA319089C81000E574A /* EDWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDWAppDelegate.h; sourceTree = "<group>"; };
+		8D630AA419089C81000E574A /* EDWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDWAppDelegate.m; sourceTree = "<group>"; };
+		8D630AA719089C81000E574A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D630AA919089C81000E574A /* EDWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EDWViewController.h; sourceTree = "<group>"; };
+		8D630AAA19089C81000E574A /* EDWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EDWViewController.m; sourceTree = "<group>"; };
+		8D630AAC19089C81000E574A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8D630AB219089C81000E574A /* BlurredSegueExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlurredSegueExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D630AB319089C81000E574A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		8D630ABB19089C81000E574A /* BlurredSegueExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BlurredSegueExampleTests-Info.plist"; sourceTree = "<group>"; };
+		8D630ABD19089C81000E574A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8D630ABF19089C81000E574A /* BlurredSegueExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlurredSegueExampleTests.m; sourceTree = "<group>"; };
+		8D630AC919089DB0000E574A /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		8D630ACA19089DB0000E574A /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		8D630ACC19089DC8000E574A /* EDWBlurredUnwindSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDWBlurredUnwindSegue.m; sourceTree = "<group>"; };
+		8D630ACD19089DC8000E574A /* EDWBlurredUnwindSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDWBlurredUnwindSegue.h; sourceTree = "<group>"; };
+		8D630ACE19089DC8000E574A /* EDWBlurredSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EDWBlurredSegue.m; sourceTree = "<group>"; };
+		8D630ACF19089DC8000E574A /* EDWBlurredSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EDWBlurredSegue.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D630A8E19089C81000E574A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D630A9719089C81000E574A /* CoreGraphics.framework in Frameworks */,
+				8D630A9919089C81000E574A /* UIKit.framework in Frameworks */,
+				8D630A9519089C81000E574A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D630AAF19089C81000E574A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D630AB419089C81000E574A /* XCTest.framework in Frameworks */,
+				8D630AB619089C81000E574A /* UIKit.framework in Frameworks */,
+				8D630AB519089C81000E574A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D630A8819089C81000E574A = {
+			isa = PBXGroup;
+			children = (
+				8D630A9A19089C81000E574A /* BlurredSegueExample */,
+				8D630AB919089C81000E574A /* BlurredSegueExampleTests */,
+				8D630A9319089C81000E574A /* Frameworks */,
+				8D630A9219089C81000E574A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D630A9219089C81000E574A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D630A9119089C81000E574A /* BlurredSegueExample.app */,
+				8D630AB219089C81000E574A /* BlurredSegueExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D630A9319089C81000E574A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8D630A9419089C81000E574A /* Foundation.framework */,
+				8D630A9619089C81000E574A /* CoreGraphics.framework */,
+				8D630A9819089C81000E574A /* UIKit.framework */,
+				8D630AB319089C81000E574A /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8D630A9A19089C81000E574A /* BlurredSegueExample */ = {
+			isa = PBXGroup;
+			children = (
+				8D630ACC19089DC8000E574A /* EDWBlurredUnwindSegue.m */,
+				8D630ACD19089DC8000E574A /* EDWBlurredUnwindSegue.h */,
+				8D630ACE19089DC8000E574A /* EDWBlurredSegue.m */,
+				8D630ACF19089DC8000E574A /* EDWBlurredSegue.h */,
+				8D630AC919089DB0000E574A /* UIImage+ImageEffects.m */,
+				8D630ACA19089DB0000E574A /* UIImage+ImageEffects.h */,
+				8D630AA319089C81000E574A /* EDWAppDelegate.h */,
+				8D630AA419089C81000E574A /* EDWAppDelegate.m */,
+				8D630AA619089C81000E574A /* Main.storyboard */,
+				8D630AA919089C81000E574A /* EDWViewController.h */,
+				8D630AAA19089C81000E574A /* EDWViewController.m */,
+				8D630AAC19089C81000E574A /* Images.xcassets */,
+				8D630A9B19089C81000E574A /* Supporting Files */,
+			);
+			path = BlurredSegueExample;
+			sourceTree = "<group>";
+		};
+		8D630A9B19089C81000E574A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D630A9C19089C81000E574A /* BlurredSegueExample-Info.plist */,
+				8D630A9D19089C81000E574A /* InfoPlist.strings */,
+				8D630AA019089C81000E574A /* main.m */,
+				8D630AA219089C81000E574A /* BlurredSegueExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8D630AB919089C81000E574A /* BlurredSegueExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D630ABF19089C81000E574A /* BlurredSegueExampleTests.m */,
+				8D630ABA19089C81000E574A /* Supporting Files */,
+			);
+			path = BlurredSegueExampleTests;
+			sourceTree = "<group>";
+		};
+		8D630ABA19089C81000E574A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8D630ABB19089C81000E574A /* BlurredSegueExampleTests-Info.plist */,
+				8D630ABC19089C81000E574A /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D630A9019089C81000E574A /* BlurredSegueExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D630AC319089C81000E574A /* Build configuration list for PBXNativeTarget "BlurredSegueExample" */;
+			buildPhases = (
+				8D630A8D19089C81000E574A /* Sources */,
+				8D630A8E19089C81000E574A /* Frameworks */,
+				8D630A8F19089C81000E574A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BlurredSegueExample;
+			productName = BlurredSegueExample;
+			productReference = 8D630A9119089C81000E574A /* BlurredSegueExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D630AB119089C81000E574A /* BlurredSegueExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D630AC619089C81000E574A /* Build configuration list for PBXNativeTarget "BlurredSegueExampleTests" */;
+			buildPhases = (
+				8D630AAE19089C81000E574A /* Sources */,
+				8D630AAF19089C81000E574A /* Frameworks */,
+				8D630AB019089C81000E574A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D630AB819089C81000E574A /* PBXTargetDependency */,
+			);
+			name = BlurredSegueExampleTests;
+			productName = BlurredSegueExampleTests;
+			productReference = 8D630AB219089C81000E574A /* BlurredSegueExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D630A8919089C81000E574A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = EDW;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Richard Mullinix";
+				TargetAttributes = {
+					8D630AB119089C81000E574A = {
+						TestTargetID = 8D630A9019089C81000E574A;
+					};
+				};
+			};
+			buildConfigurationList = 8D630A8C19089C81000E574A /* Build configuration list for PBXProject "BlurredSegueExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D630A8819089C81000E574A;
+			productRefGroup = 8D630A9219089C81000E574A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D630A9019089C81000E574A /* BlurredSegueExample */,
+				8D630AB119089C81000E574A /* BlurredSegueExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D630A8F19089C81000E574A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D630AAD19089C81000E574A /* Images.xcassets in Resources */,
+				8D630A9F19089C81000E574A /* InfoPlist.strings in Resources */,
+				8D630AA819089C81000E574A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D630AB019089C81000E574A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D630ABE19089C81000E574A /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D630A8D19089C81000E574A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D630ACB19089DB0000E574A /* UIImage+ImageEffects.m in Sources */,
+				8D630AA119089C81000E574A /* main.m in Sources */,
+				8D630AA519089C81000E574A /* EDWAppDelegate.m in Sources */,
+				8D630AD019089DC8000E574A /* EDWBlurredUnwindSegue.m in Sources */,
+				8D630AAB19089C81000E574A /* EDWViewController.m in Sources */,
+				8D630AD119089DC8000E574A /* EDWBlurredSegue.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D630AAE19089C81000E574A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D630AC019089C81000E574A /* BlurredSegueExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D630AB819089C81000E574A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D630A9019089C81000E574A /* BlurredSegueExample */;
+			targetProxy = 8D630AB719089C81000E574A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D630A9D19089C81000E574A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D630A9E19089C81000E574A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8D630AA619089C81000E574A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D630AA719089C81000E574A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8D630ABC19089C81000E574A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D630ABD19089C81000E574A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D630AC119089C81000E574A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8D630AC219089C81000E574A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8D630AC419089C81000E574A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlurredSegueExample/BlurredSegueExample-Prefix.pch";
+				INFOPLIST_FILE = "BlurredSegueExample/BlurredSegueExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8D630AC519089C81000E574A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlurredSegueExample/BlurredSegueExample-Prefix.pch";
+				INFOPLIST_FILE = "BlurredSegueExample/BlurredSegueExample-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8D630AC719089C81000E574A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlurredSegueExample.app/BlurredSegueExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlurredSegueExample/BlurredSegueExample-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "BlurredSegueExampleTests/BlurredSegueExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		8D630AC819089C81000E574A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BlurredSegueExample.app/BlurredSegueExample";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BlurredSegueExample/BlurredSegueExample-Prefix.pch";
+				INFOPLIST_FILE = "BlurredSegueExampleTests/BlurredSegueExampleTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D630A8C19089C81000E574A /* Build configuration list for PBXProject "BlurredSegueExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D630AC119089C81000E574A /* Debug */,
+				8D630AC219089C81000E574A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D630AC319089C81000E574A /* Build configuration list for PBXNativeTarget "BlurredSegueExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D630AC419089C81000E574A /* Debug */,
+				8D630AC519089C81000E574A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8D630AC619089C81000E574A /* Build configuration list for PBXNativeTarget "BlurredSegueExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D630AC719089C81000E574A /* Debug */,
+				8D630AC819089C81000E574A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D630A8919089C81000E574A /* Project object */;
+}
